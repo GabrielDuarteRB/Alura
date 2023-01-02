@@ -1,0 +1,50 @@
+{
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "Alura Tracker"
+    },
+    {
+      "nome": "Um plano de estudos",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "nome": "Estudando padroes de arquitetura 2.0"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "duracaoEmSegundos": 120,
+      "descricao": "Configuração do ambiente",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker"
+      }
+    },
+    {
+      "duracaoEmSegundos": 3,
+      "descricao": "Teste 2.0",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker"
+      },
+      "id": 5
+    },
+    {
+      "duracaoEmSegundos": 4,
+      "descricao": "teste",
+      "projeto": {
+        "id": 3,
+        "nome": "Estudando padroes de arquitetura 2.0"
+      },
+      "id": 6
+    },
+    {
+      "duracaoEmSegundos": 2,
+      "descricao": "teste",
+      "id": 7
+    }
+  ]
+}
