@@ -1,6 +1,6 @@
 <h1 align="center">Repostório criado para guardar arquivos de cursos da alura</h1>
 
-<h2 align="center" >Descrição dos projetos</h2>
+<h2 align="center" >Formações:</h2>
 
 <h4>Projetos em php</h4>
 <ul>
