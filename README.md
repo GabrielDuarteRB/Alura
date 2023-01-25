@@ -2,8 +2,8 @@
 
 <h4>Projetos em php</h4>
 <ul>
-  <li>Formação PHP - <b>🚧 Projeto em andamento 🚧</b></li>
-  <li>Formação Laravel - <b>❌ Projeto não iniciada ❌</b></li>
+  <li>Formação PHP - <b>✔️ Projeto finalizado ✔️</b></li>
+  <li>Formação Laravel - <b>🚧 Projeto em andamento 🚧</b></li>
 </ul>
 <br>
 
