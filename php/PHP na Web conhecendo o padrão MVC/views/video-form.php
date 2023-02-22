@@ -1,7 +1,4 @@
-<?php
-require_once __DIR__ . '/inicio-html.php';
-/** @var \Alura\Mvc\Entity\Video|null $video */
-?>
+<?php $this->layout('layout') ?>
 <main class="container">
     <form class="container__formulario"
           enctype="multipart/form-data"
@@ -39,6 +36,3 @@ require_once __DIR__ . '/inicio-html.php';
         <input class="formulario__botao" type="submit" value="Enviar" />
     </form>
 </main>
-
-<?php
-require_once __DIR__ . '/fim-html.php';

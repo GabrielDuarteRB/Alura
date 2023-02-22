@@ -16,15 +16,27 @@
 
 <body>
 
-<header>
+    <header>
 
-    <nav class="cabecalho">
-        <a class="logo" href="/"></a>
+        <nav class="cabecalho">
+            <a class="logo" href="/"></a>
 
-        <div class="cabecalho__icones">
-            <a href="/novo-video" class="cabecalho__videos"></a>
-            <a href="/logout" class="cabecalho__sair">Sair</a>
-        </div>
-    </nav>
+            <div class="cabecalho__icones">
+                <a href="/novo-video" class="cabecalho__videos"></a>
+                <a href="/logout" class="cabecalho__sair">Sair</a>
+            </div>
+        </nav>
 
-</header>
+    </header>
+
+    <?php if (isset($_SESSION['erro_message'])): ?>
+        <h2 class="formulario__titulo erro">
+            <?= $_SESSION['erro_message']; ?>
+            <?php unset($_SESSION['erro_message']); ?>
+        </h2>
+    <?php endif; ?>
+
+    <?= $this->section('content'); ?>
+
+</body>
+</html>

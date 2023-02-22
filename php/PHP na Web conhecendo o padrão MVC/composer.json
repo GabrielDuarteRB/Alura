@@ -3,5 +3,14 @@
         "psr-4": {
             "Alura\\Mvc\\": "src/"
         }
+    },
+    "require": {
+        "psr/http-message": "^1.0",
+        "nyholm/psr7": "^1.5",
+        "psr/http-server-handler": "^1.0",
+        "nyholm/psr7-server": "^1.0",
+        "psr/container": "^2.0",
+        "php-di/php-di": "^7.0",
+        "league/plates": "^3.5"
     }
 }
